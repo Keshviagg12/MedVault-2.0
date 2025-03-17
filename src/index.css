@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900 */
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Amaranth&family=DM+Serif+Display&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.fontAll {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html{
+  scroll-behavior: smooth;
+  scroll-margin: 2rem;
+}
